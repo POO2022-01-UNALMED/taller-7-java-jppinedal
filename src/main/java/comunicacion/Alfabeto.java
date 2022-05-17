@@ -30,7 +30,8 @@ public class Alfabeto extends Pictograma {
         return letras.length;
     }
     
-    public String toString(){
+    @Override
+    public String toString() {
         String resultado = "";
         for (int i = 0; i < letras.length; i++) {
             if (i == 0) {
