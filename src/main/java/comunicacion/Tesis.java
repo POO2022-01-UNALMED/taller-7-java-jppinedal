@@ -24,7 +24,7 @@ public class Tesis extends Escrito{
     public void setIdea(String idea) {
         this.idea = idea;
     }
-    	
+
     public String[] getArgumentos() {
         return argumentos;
     }
@@ -38,7 +38,7 @@ public class Tesis extends Escrito{
     public void setConclusion(String conclusion) {
         this.conclusion = conclusion;
     }
-    
+
     public String getReferencias() {
         return referencias;
     }
@@ -53,8 +53,8 @@ public class Tesis extends Escrito{
         this.interpretacion = interpretacion;
     }
     
-    public int palabrasTotales(int param) {
-        return this.getPaginas() * param * 5;
+    public int palabrasTotales(int parametro) {
+        return this.getPaginas() * parametro * 5;
     }
 
     public String toString() {
