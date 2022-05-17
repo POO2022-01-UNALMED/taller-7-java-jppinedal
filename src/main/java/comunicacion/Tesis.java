@@ -1,6 +1,6 @@
 package comunicacion;
 
-//import java.util.Arrays;
+import java.util.Arrays;
 
 public class Tesis extends Escrito{
 
